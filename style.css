@@ -1,0 +1,191 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+ 
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(36, 148, 247);
+    
+
+}
+.hero{
+    background: url("images/header-cover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 60vh;
+}
+
+.hero-contents p{
+    font-size: 1.5rem;
+}
+
+nav{
+    font-size: 25px;
+    min-height: 3rem;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu>ul>li{
+    margin-right: 1rem;
+    color: turquoise;
+    font-weight: bolder;
+}
+
+.menu a {
+    transition:0.3s;
+}
+
+.menu ,.container a:hover{
+    color:rgb(177, 196, 12);
+    
+}
+
+
+
+.hero-contents{
+    color:turquoise;
+    font-family: sans-serif;
+    margin:30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-img{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    transform: scaleX(-1);
+    
+}
+
+.skills-list{
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top:4rem;
+}
+
+.skills-list i{
+    font-size: 4rem;
+    margin-right: 1rem;
+
+}
+
+.section-title{
+    text-align:center;
+    margin: auto;
+    font-size: 2rem;
+margin-top:4rem;
+font-weight: bold;
+border-bottom: 0.4rem solid blue;
+width: 25%;
+
+
+}
+
+.pro-task-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:5rem;
+}
+
+
+.info-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.info .tech{
+    font-size:25px;
+}
+
+.info p{
+    font-size:28px;
+}
+
+
+
+.pro-img{
+    width:100%;
+}
+
+
+.links i{
+    font-size: 3rem;
+}
+
+
+.contact-title{
+    text-align:center;
+    margin: auto;
+    font-size: 2rem;
+margin-top:4rem;
+margin-bottom:4rem;
+font-weight: bold;
+border-bottom: 0.4rem solid blue;
+width: 25%;
+}
+
+.contact-list{
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.footer{
+    background: black;
+    color:white;
+    text-align: center;
+    padding: 40px;
+    margin-top:4rem;
+}
+
+.pro-img img{
+    width:100%;
+}
+
+.info{
+    width:100%;
+    padding:2rem
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
